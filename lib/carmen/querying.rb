@@ -45,7 +45,7 @@ module Carmen
     private
 
     def normalise_name(name)
-      name.mb_chars.downcase.unicode_normalize(:nfkc)
+      name.downcase.unicode_normalize(:nfkc)
     end
   end
 end
